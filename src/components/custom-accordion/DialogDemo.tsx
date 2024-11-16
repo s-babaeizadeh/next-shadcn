@@ -13,8 +13,7 @@ import {
 } from "../ui/dialog";
 
 import { DialogDemoProps } from "../types/DialogDemo.types";
-import DialogForm from "./DialogForm";
-import ProfileForm from "./ProfileForm";
+import AccordionComponent from "./AccordionComponent";
 
 export const DialogDemo: React.FC<DialogDemoProps> = ({
   buttonColor,
@@ -34,20 +33,17 @@ export const DialogDemo: React.FC<DialogDemoProps> = ({
           Open Dialog
         </Button>
       </DialogTrigger>
-      <DialogContent className="sm:max-w-[425px] ">
+      <DialogContent className="sm:max-w-[425px]">
         <DialogHeader>
           <DialogTitle>{titleDialog}</DialogTitle>
           <DialogDescription>{descriptionDialog}</DialogDescription>
         </DialogHeader>
-        <DialogFooter className="flex justify-center items-center mx-auto flex-row gap-3">
-          <DialogForm
+        <DialogFooter className="flex justify-center items-center mx-auto flex-col gap-3">
+          <AccordionComponent
             buttonColor={buttonColor}
-            // titlePopover={titlePopover}
-            // descriptionPopover={descriptionPopover}
             titleForm={titleForm}
             descriptionForm={descriptionForm}
           />
-          {/* <ProfileForm /> */}
           <DialogClose asChild>
             <Button
               type="button"

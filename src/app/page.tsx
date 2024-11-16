@@ -4,8 +4,9 @@ import CustomMenu from "@/components/custom-menu/CustomMenu";
 import CustomHover from "@/components/custom-hover/CustomHover";
 import CustomForm from "@/components/custom-form-request/CustomForm";
 
-import CustomProfileForm from "@/components/custom-profile-form/CustomProfileForm";
+import CustomCalendar from "@/components/custom-calendar/CustomCalendar";
 import CustomFormCombobox from "@/components/custom-combobox /CustomFormCombobox";
+import CustomAccordion from "@/components/custom-accordion/CustomAccordion";
 
 const Home = () => {
   return (
@@ -14,8 +15,9 @@ const Home = () => {
       <CustomMenu />
       <CustomHover />
       <CustomForm />
-      <CustomProfileForm />
+      <CustomCalendar />
       <CustomFormCombobox />
+      <CustomAccordion />
     </div>
   );
 };

@@ -7,10 +7,11 @@ import {
   CardTitle,
 } from "../ui/card";
 
-import { DialogDemo } from "./DialogDemo";
 import { CustomDialogProps } from "../types/CustomDialog.types";
 
-const CustomFormRequest: React.FC<CustomDialogProps> = ({
+import { DialogDemo } from "./DialogDemo";
+
+const CustomAccordion: React.FC<CustomDialogProps> = ({
   containerClassName = "flex items-center justify-center p-10 min-h-[40vh] min-w-[30vw]",
   cardClassName = "backdrop-blur-xl bg-white/30 border p-6 w-full sm:w-50 md:w-80 lg:w-96 h-auto dark:border-white dark:text-black",
   titleClassName = "font-bold text-xl",
@@ -53,4 +54,4 @@ const CustomFormRequest: React.FC<CustomDialogProps> = ({
   );
 };
 
-export default CustomFormRequest;
+export default CustomAccordion;

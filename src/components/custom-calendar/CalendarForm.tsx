@@ -31,7 +31,7 @@ const FormSchema = z.object({
   }),
 });
 
-export function CalendarForm() {
+const CalendarForm = () => {
   const form = useForm<z.infer<typeof FormSchema>>({
     resolver: zodResolver(FormSchema),
   });
@@ -60,7 +60,7 @@ export function CalendarForm() {
                 <PopoverTrigger asChild>
                   <FormControl>
                     <Button
-                      variant={"outline"}
+                      variant={"default"}
                       className={cn(
                         "w-[240px] pl-3 text-left font-normal",
                         !field.value && "text-muted-foreground"
@@ -97,4 +97,5 @@ export function CalendarForm() {
       </form>
     </Form>
   );
-}
+};
+export default CalendarForm;

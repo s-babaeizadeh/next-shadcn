@@ -41,8 +41,6 @@ export const DialogDemo: React.FC<DialogDemoProps> = ({
         <DialogFooter className="flex justify-center items-center mx-auto flex-row gap-3">
           <DialogForm
             buttonColor={buttonColor}
-            // titlePopover={titlePopover}
-            // descriptionPopover={descriptionPopover}
             titleForm={titleForm}
             descriptionForm={descriptionForm}
           />
