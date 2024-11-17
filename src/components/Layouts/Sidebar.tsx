@@ -11,7 +11,7 @@ export default function Sidebar() {
         Getting Started
       </Link>
       <Link href="/guidens">Introduction</Link>
-      <Link href="#">Features</Link>
+      <Link href="/features">Features</Link>
     </nav>
   );
 }
