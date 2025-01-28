@@ -6,7 +6,7 @@ import { rimraf } from "rimraf";
 import { Project, ScriptKind, SyntaxKind } from "ts-morph";
 
 import type { z } from "zod";
-import { registry } from "../registry";
+import { registry } from "../registry/index";
 import {
   type Registry,
   registryEntrySchema,
