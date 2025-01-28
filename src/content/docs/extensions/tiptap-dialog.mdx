@@ -1,0 +1,56 @@
+---
+title: Tiptap Dialog
+description: The Tiptap Dialog component is a ready-to-use interface designed for creating and modifying content in a focused environment. When activated, this dialog overlays the main content, providing users with a rich text editor or code editor to input and format their text or code. This feature enhances user experience by offering a dedicated space for editing, complete with tools and options that streamline the editing process, while keeping users engaged with the overall application context..
+---
+
+<ComponentPreview name="tiptap-dialog-example" />
+
+## Installation
+
+<Tabs defaultValue="manual">
+
+<TabsList>  
+  <TabsTrigger value="manual">Manual</TabsTrigger>
+</TabsList>
+
+<TabsContent value="manual">
+
+<Steps>
+
+<Step>Copy & paste the following .</Step>
+
+```bash
+npm install next-shadcn
+```
+
+</Steps>
+</TabsContent>
+
+</Tabs>
+
+## Usage
+
+```jsx
+
+<TiptapDialog
+  	sectionClassName: "flex items-center justify-center p-10 min-h-[40vh] relative bg-cover bg-center bg-no-repeat bg-[url('/img.svg')]"
+	cardClassName: "backdrop-blur-xl bg-white/30 border p-6 w-full sm:w-50 md:w-80 lg:w-96 h-auto dark:border-white dark:text-black"
+	titleClassName: "font-bold text-xl"
+	descriptionClassName: "pt-2"
+	backgroundImage: "/img.svg"
+	buttonColor: "bg-purple-800 text-white shadow hover:bg-purple-900"
+	cardTitle: "Title for Custom Dialog"
+	cardDescription: "The dialog is an interactive feature that presents content of custom dialog."  
+	dialogTitle: "Title for Hover Dialog"
+	dialogDescription: "The hover dialog is an interactive feature that presents content of dialog in hover."
+	popoverTitle: "Title for Popover"
+	popoverDescription: "The dialog is an interactive feature that presents content of popover."
+	hoverButton: "Hover"
+	dialogButton: "Open Dialog"
+	closeButton: "close"
+	triggerButton: "Trigger"
+/>
+
+```
+
+

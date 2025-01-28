@@ -1,0 +1,55 @@
+---
+title: Form Dialog
+description: The Form Dialog Component is a ready-to-use interface element designed to facilitate user input through a structured form. When activated, the dialog overlays the main content, allowing users to enter data or provide feedback in a focused environment. This feature enhances user experience by guiding users through the input process, ensuring that all necessary information is collected efficiently and effectively, while maintaining the context of the application.
+---
+
+<ComponentPreview name="form-dialog-example" />
+
+
+## Installation
+
+<Tabs defaultValue="manual">
+
+<TabsList> 
+  <TabsTrigger value="manual">Manual</TabsTrigger>
+</TabsList>
+
+<TabsContent value="manual">
+
+<Steps>
+
+<Step>Copy & paste the following code </Step>
+
+```bash
+npm install next-shadcn
+```
+
+</Steps>
+</TabsContent>
+</Tabs>
+
+
+## Usage
+
+```jsx
+<FormDialog
+  	sectionClassName: "flex items-center justify-center p-10 min-h-[40vh] relative bg-cover bg-center bg-no-repeat bg-[url('/img.svg')]"
+	cardClassName: "backdrop-blur-xl bg-white/30 border p-6 w-full sm:w-50 md:w-80 lg:w-96 h-auto dark:border-white dark:text-black"
+	titleClassName: "font-bold text-xl"
+	descriptionClassName: "pt-2"
+	backgroundImage: "/img.svg"
+	buttonColor: "bg-purple-800 text-white shadow hover:bg-purple-900"
+	cardTitle: "Title for Custom Dialog"
+	cardDescription: "The dialog is an interactive feature that presents content of custom dialog."  
+	dialogTitle: "Title for Hover Dialog"
+	dialogDescription: "The hover dialog is an interactive feature that presents content of dialog in hover."
+	popoverTitle: "Title for Popover"
+	popoverDescription: "The dialog is an interactive feature that presents content of popover."
+	hoverButton: "Hover"
+	dialogButton: "Open Dialog"
+	closeButton: "close"
+	triggerButton: "Trigger"
+/>
+```
+
+

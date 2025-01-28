@@ -1,0 +1,50 @@
+{
+	"$schema": "https://biomejs.dev/schemas/1.5.3/schema.json",
+	"organizeImports": {
+		"enabled": true
+	},
+	"linter": {
+		"enabled": true,
+		"rules": {
+			"recommended": true,
+			"style": {
+				"useBlockStatements": "error",
+				"noUnusedTemplateLiteral": "off"
+			},
+			"a11y": {
+				"noSvgWithoutTitle": "off",
+				"useKeyWithClickEvents": "off"
+			},
+			"complexity": {
+				"useLiteralKeys": "off"
+			},
+			"suspicious": {
+				"noConsoleLog": "error",
+				"noArrayIndexKey": "off",
+				"noAssignInExpressions": "off"
+			},
+			"correctness": {
+				"noUnusedVariables": "error"
+			}
+		},
+		"ignore": ["src/__registry__/**/*"]
+	},
+	"overrides": [
+		{
+			"include": ["src/registry/extensions/**/*", "src/registry/toolbars/**/*"],
+			"linter": {
+				"rules": {
+					"suspicious": {
+						"noExplicitAny": "off"
+					},
+					"correctness": {
+						"noUnusedVariables": "off"
+					}
+				}
+			}
+		}
+	],
+	"formatter": {
+		"ignore": ["src/__registry__/**/*"]
+	}
+}

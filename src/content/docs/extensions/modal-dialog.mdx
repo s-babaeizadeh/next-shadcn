@@ -1,0 +1,61 @@
+---
+title: Modal Dialog
+description: The Multiple Menu Dialog is a ready-to-use component designed to facilitate the selection of options from various menus within a single dialog interface. When activated, this dialog presents users with multiple menus, enabling them to make selections efficiently and intuitively. This feature enhances user experience by streamlining navigation and allowing for quick access to related options, making it ideal for complex decision-making scenarios.
+
+---
+
+
+<ComponentPreview name="modal-dialog-example" />
+
+## Installation
+
+<Tabs defaultValue="manual">
+
+<TabsList>
+  
+  <TabsTrigger value="manual">Manual</TabsTrigger>
+</TabsList>
+<TabsContent value="cli">
+
+
+<Steps>
+
+</Steps>
+</TabsContent>
+<TabsContent value="manual">
+<Steps>
+
+<Step>Install the following extension.</Step>
+
+```bash
+npm install next-shadcn
+```
+
+</Steps>
+</TabsContent>
+</Tabs>
+
+
+## Usage
+
+
+```jsx
+<ModalDialog
+	sectionClassName: "flex items-center justify-center p-10 min-h-[40vh] relative bg-cover bg-center bg-no-repeat bg-[url('/img.svg')]"
+	cardClassName: "backdrop-blur-xl bg-white/30 border p-6 w-full sm:w-50 md:w-80 lg:w-96 h-auto dark:border-white dark:text-black"
+	titleClassName: "font-bold text-xl"
+	descriptionClassName: "pt-2"
+	backgroundImage: "/img.svg"
+	buttonColor: "bg-purple-800 text-white shadow hover:bg-purple-900"
+	cardTitle: "Title for Custom Dialog"
+	cardDescription: "The dialog is an interactive feature that presents content of custom dialog."  
+	dialogTitle: "Title for Hover Dialog"
+	dialogDescription: "The hover dialog is an interactive feature that presents content of dialog in hover."
+	popoverTitle: "Title for Popover"
+	popoverDescription: "The dialog is an interactive feature that presents content of popover."
+	hoverButton: "Hover"
+	dialogButton: "Open Dialog"
+	closeButton: "close"
+	triggerButton: "Trigger"
+	/>
+```
