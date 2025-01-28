@@ -1,6 +1,6 @@
 {
-	"name": "calendar-dialog",
-	"type": "registry:block",
-	"description": "calendar dialog",
-	"files": []
+  "name": "calendar-dialog",
+  "type": "registry:block",
+  "description": "calendar dialog",
+  "files": []
 }

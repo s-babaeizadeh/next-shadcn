@@ -1,6 +1,6 @@
 {
-	"name": "hero-dialog",
-	"type": "registry:block",
-	"description": "hero dialog",
-	"files": []
+  "name": "hero-dialog",
+  "type": "registry:block",
+  "description": "hero dialog",
+  "files": []
 }

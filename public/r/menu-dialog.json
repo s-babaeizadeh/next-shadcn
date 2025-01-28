@@ -1,6 +1,6 @@
 {
-	"name": "menu-dialog",
-	"type": "registry:block",
-	"description": "menu dialog",
-	"files": []
+  "name": "menu-dialog",
+  "type": "registry:block",
+  "description": "menu dialog",
+  "files": []
 }

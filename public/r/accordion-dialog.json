@@ -1,6 +1,6 @@
 {
-	"name": "accordion-dialog",
-	"type": "registry:block",
-	"description": "accordion dialog",
-	"files": []
+  "name": "accordion-dialog",
+  "type": "registry:block",
+  "description": "accordion dialog",
+  "files": []
 }

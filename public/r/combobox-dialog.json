@@ -1,6 +1,6 @@
 {
-	"name": "combobox-dialog",
-	"type": "registry:block",
-	"description": "combobox dialog",
-	"files": []
+  "name": "combobox-dialog",
+  "type": "registry:block",
+  "description": "combobox dialog",
+  "files": []
 }

@@ -1,6 +1,6 @@
 {
-	"name": "form-dialog",
-	"type": "registry:block",
-	"description": "form dialog",
-	"files": []
+  "name": "form-dialog",
+  "type": "registry:block",
+  "description": "form dialog",
+  "files": []
 }
